@@ -4,7 +4,7 @@
        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/cpms</property> <!-- Replace with your DB name -->
        <property name="hibernate.connection.username">root</property> <!-- Replace with your DB username -->
-       <property name="hibernate.connection.password">Harman@1410</property> <!-- Replace with your DB password -->
+       <property name="hibernate.connection.password">
 
        <!-- Hibernate Dialect for MySQL 8 -->
        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
